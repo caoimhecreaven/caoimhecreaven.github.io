@@ -11,12 +11,33 @@ input, button, textarea, select { font: inherit }
 
 /* ================= ENDS ================ */
 
+body{background-color: purple;}
+
+/* ====== PADDING AROUND WEB PAGE BODY CONTENT ======  */
+/* Desktops */
+@media (min-width: 768px) {
+    body { padding: 4% 20% }
+ }
+ 
+ /* Mobiles */
+ @media (max-width: 767px) {
+    body { padding: 8% 5% }
+ }
+ 
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+body { padding: 4% 20% }
+
 h1 {
     font-size: 84px;
     margin-bottom: 64px;
     text-align: center;
     font-weight: normal;
     letter-spacing: 4px;
+    color: white;
 }
 
 h2 {
@@ -24,6 +45,7 @@ h2 {
     margin-bottom: 4px;
     margin-top: 54px;
     text-transform: uppercase;
+    color: white;
 }
 
 p {
@@ -31,4 +53,7 @@ p {
     font-family: sans-serif;
     line-height: 1.6;
     margin-bottom: 20px;
+    color: white;
 }
+
+a {color: white;}
