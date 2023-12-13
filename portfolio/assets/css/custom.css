@@ -1,2 +1,5 @@
-/* Add your custom CSS here */
+body,nav,footer,button
+{
+    font-family: 'Comfortaa', sans-serif;
+}
 
