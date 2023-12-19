@@ -1,0 +1,19 @@
+body,nav,footer,button
+{
+    font-family: 'Comfortaa', sans-serif;
+}
+.section-selector-2 { background-color: var(--trend-600) }
+.section-selector-2 h2 { color: var(--slate-100) }
+.section-selector-2 .col-text h2.heading-underline::after { background-color: var(--slate-100) }
+.section-selector-2 .col-text p { color: var(--slate-100) }
+.theme-dark.section-selector-2 #btn-submit { color: var(--black-000) }
+.theme-dark.section-selector-2 #btn-submit { background-color: var(--slate-100) }
+.theme-dark.section-selector-2 #btn-submit { border-color: var(--slate-100) }
+.theme-dark.section-selector-2 #btn-submit:focus,
+.theme-dark.section-selector-2 #btn-submit:hover,
+.theme-dark.section-selector-2 #btn-submit:active { background-color: var(--slate-400) }
+
+.theme-dark.section-selector-2 #btn-submit:focus,
+.theme-dark.section-selector-2 #btn-submit:hover,
+.theme-dark.section-selector-2 #btn-submit:active { border-color: var(--slate-400) }
+
